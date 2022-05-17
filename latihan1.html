@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Sembunyi & Tampilkan Gambar</title>
+
+	<script src="jquery-3.6.0.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".hide").click(function(){$("#pict1").hide("slow")});
+			$(".show").click(function(){$("#pict1").show("slow")});
+			$(".hide2").click(function(){$("#pict2").hide("slow")});
+			$(".show2").click(function(){$("#pict2").show("slow")});
+			$(".hide3").click(function(){$("#pict3").hide("slow")});
+			$(".show3").click(function(){$("#pict3").show("slow")});
+		});
+	</script>
+</head>
+<body>
+	<button class="hide">Sembunyikan</button>
+	<button class="show">Tampilkan</button>
+	<p><img src="pict1.jpeg" id="pict1"> 
+		<br><br>
+	<button class="hide2">Sembunyikan</button>
+	<button class="show2">Tampilkan</button>
+	<p><img src="pict2.jpeg" id="pict2">
+		<br><br>
+	<button class="hide3">Sembunyikan</button>
+	<button class="show3">Tampilkan</button>
+	<p><img src="pict3.jpeg" id="pict3">
+</body>
+</html>
